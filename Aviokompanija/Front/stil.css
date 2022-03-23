@@ -1,0 +1,102 @@
+body{
+   
+    background:
+        url(sky.jpg)   
+        no-repeat
+        fixed;                
+    display:
+        flex;    
+    flex-direction: 
+        column;
+        color:aliceblue;
+}
+
+.PrikazIzboraAerodroma{
+    display:
+        flex;
+    justify-content: 
+        center;
+    flex-direction: 
+        column;
+    font-size:
+        30px;
+
+
+}
+
+.ListaIzborAerodroma{
+    font-size: 20px;
+    background-color: rgb(131, 131, 235);
+    color:white;  
+}
+
+.AerodromDiv{
+    display:
+        flex;
+    justify-content: 
+        center;
+    flex-direction: 
+        column;
+}
+
+.LetDiv{
+    display:
+        flex;
+    justify-content: 
+        center;
+    flex-direction: 
+        column;
+}
+
+.SedistaDiv{
+    display:
+        flex;
+    justify-content: 
+        center;
+        flex-direction: 
+        collumn;
+    flex-wrap: wrap;
+}
+
+.PutnickaKabinaDiv{
+    display:
+        flex;
+    justify-content: 
+        center;
+    flex-direction: 
+        column;
+    flex-grow: 1;
+}
+
+
+.PutnikDiv{
+    display:
+        flex;
+    justify-content: 
+        center;
+    flex-direction: 
+        column;
+    flex-grow: 1;
+
+}
+
+.Rezervisano, .Slobodno{
+    border-radius: 20px;
+    width : 80px;
+    height : 40px;
+}
+
+.Rezervisano{
+   
+    background-color: pink;
+}
+
+.Slobodno{
+    background-color: cadetblue;
+}
+.formaSedista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
